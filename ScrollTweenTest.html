@@ -1,5 +1,6 @@
 <head>
   <title>ScrollTweenTest</title>
+  <script src="http://www.camobile.com/js/libs/jquery.mousewheel.js"></script>
 </head>
 
 <body>
@@ -7,7 +8,35 @@
 </body>
 
 <template name="hello">
-  <h1>Hello World!</h1>
-  {{greeting}}
-  <input type="button" value="Click" />
+  <div id="display"></div>
+  <div id="bird"><img src="http://e-poket.com/illust/img/illust/m_tori.jpg" /></div>
+  <article id="container">
+    <section id="hello1">
+      <h1>Hello World!</h1>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ipsum nisi, id ornare tellus. Nulla scelerisque tellus et leo gravida iaculis. Praesent ut molestie velit. Donec nec purus massa, quis placerat diam. Nam non turpis sit amet urna suscipit rhoncus sit amet id turpis. Integer auctor felis et neque dictum vulputate. Sed vel dui magna, sit amet condimentum lacus. Pellentesque vel mauris ut erat interdum posuere eget sit amet est. Duis condimentum enim quis enim elementum vestibulum. Aenean egestas pellentesque eros quis semper. In risus lorem, tempus vitae tincidunt eu, feugiat vitae libero.</p>
+<p>
+Fusce auctor bibendum orci in ullamcorper. Nulla sit amet nisl id lacus porttitor dapibus. Nunc massa dui, luctus a mattis sed, pharetra eget massa. Morbi interdum, enim et gravida consectetur, sem arcu eleifend arcu, et porttitor purus eros at purus. Sed sodales nulla vel magna convallis ac gravida libero vestibulum. Integer nec gravida ipsum. Proin neque lectus, lobortis pretium mattis in, sollicitudin vitae nisl. Mauris ac ipsum dolor, eu pretium sapien.</p>
+<p>
+Nulla accumsan iaculis purus, et tempor lectus auctor at. Quisque in molestie eros. Cras nunc lectus, eleifend sit amet imperdiet ut, semper non dolor. In hac habitasse platea dictumst. Vivamus vehicula bibendum sem, id pretium felis imperdiet ut. Nunc accumsan, sapien nec vulputate blandit, sem neque ornare nisl, in vulputate quam elit dignissim dui. Ut euismod nulla id risus pulvinar iaculis. Vestibulum dictum porta viverra. Maecenas volutpat lacinia aliquam. Nam sed risus dui. Nam elit mauris, feugiat quis ullamcorper sed, consectetur quis lacus. Aenean imperdiet erat nec diam pharetra eget lobortis lorem pellentesque. Etiam tellus ligula, placerat a placerat eu, sollicitudin ut metus. Donec feugiat quam id nisi vestibulum et cursus dolor varius.</p>
+<p>
+Morbi elit est, vestibulum sit amet tristique ut, pellentesque at massa. Suspendisse pellentesque odio sed sapien auctor nec dapibus elit lacinia. Cras vitae sollicitudin urna. Praesent tempor ante ut sapien suscipit a sagittis erat condimentum. Morbi tincidunt elementum orci, non consectetur leo consectetur eget. Proin dapibus nisi eu urna ullamcorper a porttitor quam volutpat. Cras cursus metus id turpis faucibus sit amet congue orci pulvinar. Aenean condimentum tempus dictum. Praesent lorem lacus, hendrerit a accumsan quis, egestas in mauris. Etiam sit amet eros tortor, in placerat leo. Duis ultricies sodales erat, ut vulputate nibh venenatis ut. Vivamus id sem quis justo elementum feugiat in vel nisl. Donec odio urna, ultricies sit amet hendrerit sed, aliquam a magna. Sed suscipit dapibus ultricies. Nulla facilisi.</p>
+<p>
+Curabitur sagittis, tortor vitae ultricies fringilla, sem elit venenatis elit, in ullamcorper orci enim id dolor. Pellentesque a viverra nunc. Quisque pharetra, neque et gravida dapibus, lectus purus adipiscing elit, congue sollicitudin libero ligula nec dui. Nam tincidunt arcu nec velit porta congue. In facilisis imperdiet ipsum sit amet fermentum. Duis est lacus, tempus non porttitor quis, scelerisque ac leo. Mauris vel ligula enim, et rutrum diam. Aenean posuere egestas vulputate.</p>
+
+    </section>
+    <section id="hello2">
+      <h1>こんにちは</h1>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ipsum nisi, id ornare tellus. Nulla scelerisque tellus et leo gravida iaculis. Praesent ut molestie velit. Donec nec purus massa, quis placerat diam. Nam non turpis sit amet urna suscipit rhoncus sit amet id turpis. Integer auctor felis et neque dictum vulputate. Sed vel dui magna, sit amet condimentum lacus. Pellentesque vel mauris ut erat interdum posuere eget sit amet est. Duis condimentum enim quis enim elementum vestibulum. Aenean egestas pellentesque eros quis semper. In risus lorem, tempus vitae tincidunt eu, feugiat vitae libero.</p>
+<p>
+Fusce auctor bibendum orci in ullamcorper. Nulla sit amet nisl id lacus porttitor dapibus. Nunc massa dui, luctus a mattis sed, pharetra eget massa. Morbi interdum, enim et gravida consectetur, sem arcu eleifend arcu, et porttitor purus eros at purus. Sed sodales nulla vel magna convallis ac gravida libero vestibulum. Integer nec gravida ipsum. Proin neque lectus, lobortis pretium mattis in, sollicitudin vitae nisl. Mauris ac ipsum dolor, eu pretium sapien.</p>
+<p>
+Nulla accumsan iaculis purus, et tempor lectus auctor at. Quisque in molestie eros. Cras nunc lectus, eleifend sit amet imperdiet ut, semper non dolor. In hac habitasse platea dictumst. Vivamus vehicula bibendum sem, id pretium felis imperdiet ut. Nunc accumsan, sapien nec vulputate blandit, sem neque ornare nisl, in vulputate quam elit dignissim dui. Ut euismod nulla id risus pulvinar iaculis. Vestibulum dictum porta viverra. Maecenas volutpat lacinia aliquam. Nam sed risus dui. Nam elit mauris, feugiat quis ullamcorper sed, consectetur quis lacus. Aenean imperdiet erat nec diam pharetra eget lobortis lorem pellentesque. Etiam tellus ligula, placerat a placerat eu, sollicitudin ut metus. Donec feugiat quam id nisi vestibulum et cursus dolor varius.</p>
+<p>
+Morbi elit est, vestibulum sit amet tristique ut, pellentesque at massa. Suspendisse pellentesque odio sed sapien auctor nec dapibus elit lacinia. Cras vitae sollicitudin urna. Praesent tempor ante ut sapien suscipit a sagittis erat condimentum. Morbi tincidunt elementum orci, non consectetur leo consectetur eget. Proin dapibus nisi eu urna ullamcorper a porttitor quam volutpat. Cras cursus metus id turpis faucibus sit amet congue orci pulvinar. Aenean condimentum tempus dictum. Praesent lorem lacus, hendrerit a accumsan quis, egestas in mauris. Etiam sit amet eros tortor, in placerat leo. Duis ultricies sodales erat, ut vulputate nibh venenatis ut. Vivamus id sem quis justo elementum feugiat in vel nisl. Donec odio urna, ultricies sit amet hendrerit sed, aliquam a magna. Sed suscipit dapibus ultricies. Nulla facilisi.</p>
+<p>
+Curabitur sagittis, tortor vitae ultricies fringilla, sem elit venenatis elit, in ullamcorper orci enim id dolor. Pellentesque a viverra nunc. Quisque pharetra, neque et gravida dapibus, lectus purus adipiscing elit, congue sollicitudin libero ligula nec dui. Nam tincidunt arcu nec velit porta congue. In facilisis imperdiet ipsum sit amet fermentum. Duis est lacus, tempus non porttitor quis, scelerisque ac leo. Mauris vel ligula enim, et rutrum diam. Aenean posuere egestas vulputate.</p>
+    </section>
+  </article>
 </template>

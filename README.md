@@ -6,8 +6,8 @@ File Structure
 
 * ScrollTweenTest
     * .meteor <- created by `meteor create`
-        * .gitignore
-    * client
+    * .gitignore
+    * client/
         * ScrollTween.js <-- https://github.com/camobile/ScrollTween.js
     * ScrollTweenTest.html
     * ScrollTweenTest.js
